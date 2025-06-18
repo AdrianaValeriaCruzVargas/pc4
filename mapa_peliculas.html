@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_100731502047e75984eab94ccce4fbdf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_100731502047e75984eab94ccce4fbdf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_100731502047e75984eab94ccce4fbdf = L.map(
+                "map_100731502047e75984eab94ccce4fbdf",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_021a7d62af92fad8bc9f8791edfb36a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_021a7d62af92fad8bc9f8791edfb36a1.addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var marker_afde9d1057846bd49d968f097abedaf5 = L.marker(
+                [34.1408, -78.8186],
+                {
+}
+            ).addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var icon_85e87fd428bf93e77e28d1d2d29c1868 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53897f74f360e2ae018a13a186b0ee76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ee8abe3b45fed8ed0658f7d9f50f99c = $(`<div id="html_2ee8abe3b45fed8ed0658f7d9f50f99c" style="width: 100.0%; height: 100.0%;">         <b>Iron Man 3</b><br>         Director: Shane Black<br>         Año: 2013         </div>`)[0];
+                popup_53897f74f360e2ae018a13a186b0ee76.setContent(html_2ee8abe3b45fed8ed0658f7d9f50f99c);
+            
+        
+
+        marker_afde9d1057846bd49d968f097abedaf5.bindPopup(popup_53897f74f360e2ae018a13a186b0ee76)
+        ;
+
+        
+    
+    
+            marker_afde9d1057846bd49d968f097abedaf5.bindTooltip(
+                `<div>
+                     Iron Man 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_afde9d1057846bd49d968f097abedaf5.setIcon(icon_85e87fd428bf93e77e28d1d2d29c1868);
+            
+    
+            var marker_81b084ba9fa7c2fc6e91e3b7c33961e4 = L.marker(
+                [29.9753, 31.1376],
+                {
+}
+            ).addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var icon_f8f1742090c53b322e60852f2fb58eaa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59ddcae9516bf3072c0ddf4e21a5a236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_716348c0ef7a98d1703867242e0c5fbc = $(`<div id="html_716348c0ef7a98d1703867242e0c5fbc" style="width: 100.0%; height: 100.0%;">         <b>La Momia</b><br>         Director: Stephen Sommers<br>         Año: 1999         </div>`)[0];
+                popup_59ddcae9516bf3072c0ddf4e21a5a236.setContent(html_716348c0ef7a98d1703867242e0c5fbc);
+            
+        
+
+        marker_81b084ba9fa7c2fc6e91e3b7c33961e4.bindPopup(popup_59ddcae9516bf3072c0ddf4e21a5a236)
+        ;
+
+        
+    
+    
+            marker_81b084ba9fa7c2fc6e91e3b7c33961e4.bindTooltip(
+                `<div>
+                     La Momia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81b084ba9fa7c2fc6e91e3b7c33961e4.setIcon(icon_f8f1742090c53b322e60852f2fb58eaa);
+            
+    
+            var marker_2ba93970f15938fd35c79855253ac35f = L.marker(
+                [34.052235, -118.25576],
+                {
+}
+            ).addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var icon_0806f105cc6e41d2ffd7e5d2e9d0f081 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38501cb69a624b61b0de9ce05505dd62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19966cc922f1524f05d8439469782d63 = $(`<div id="html_19966cc922f1524f05d8439469782d63" style="width: 100.0%; height: 100.0%;">         <b>Iron Man 1</b><br>         Director: Jon Favreau<br>         Año: 2008         </div>`)[0];
+                popup_38501cb69a624b61b0de9ce05505dd62.setContent(html_19966cc922f1524f05d8439469782d63);
+            
+        
+
+        marker_2ba93970f15938fd35c79855253ac35f.bindPopup(popup_38501cb69a624b61b0de9ce05505dd62)
+        ;
+
+        
+    
+    
+            marker_2ba93970f15938fd35c79855253ac35f.bindTooltip(
+                `<div>
+                     Iron Man 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ba93970f15938fd35c79855253ac35f.setIcon(icon_0806f105cc6e41d2ffd7e5d2e9d0f081);
+            
+    
+            var marker_3d89ced26f18d6c5cfe8751dd59bd15f = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var icon_4844fb4771fb411843c031af44c9b660 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95f3d041ca3cd0756780aaa66226744e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf633c22efe44ba2bcc5c97e44f04956 = $(`<div id="html_cf633c22efe44ba2bcc5c97e44f04956" style="width: 100.0%; height: 100.0%;">         <b>Doctor Strange</b><br>         Director: Scott Derrickson<br>         Año: 2016         </div>`)[0];
+                popup_95f3d041ca3cd0756780aaa66226744e.setContent(html_cf633c22efe44ba2bcc5c97e44f04956);
+            
+        
+
+        marker_3d89ced26f18d6c5cfe8751dd59bd15f.bindPopup(popup_95f3d041ca3cd0756780aaa66226744e)
+        ;
+
+        
+    
+    
+            marker_3d89ced26f18d6c5cfe8751dd59bd15f.bindTooltip(
+                `<div>
+                     Doctor Strange
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3d89ced26f18d6c5cfe8751dd59bd15f.setIcon(icon_4844fb4771fb411843c031af44c9b660);
+            
+    
+            var marker_f2387ba949b2680e5532d8b6925e35d3 = L.marker(
+                [-33.9249, 18.4241],
+                {
+}
+            ).addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+            var icon_36c67538b3fe250e5c722111e8c6ae1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd3a2f80b04b9e01972ab5932292d53b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67595b628c9ba9c1ed64c91c58fa5780 = $(`<div id="html_67595b628c9ba9c1ed64c91c58fa5780" style="width: 100.0%; height: 100.0%;">         <b>Black Panther</b><br>         Director: Ryan Coogler<br>         Año: 2018         </div>`)[0];
+                popup_bd3a2f80b04b9e01972ab5932292d53b.setContent(html_67595b628c9ba9c1ed64c91c58fa5780);
+            
+        
+
+        marker_f2387ba949b2680e5532d8b6925e35d3.bindPopup(popup_bd3a2f80b04b9e01972ab5932292d53b)
+        ;
+
+        
+    
+    
+            marker_f2387ba949b2680e5532d8b6925e35d3.bindTooltip(
+                `<div>
+                     Black Panther
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f2387ba949b2680e5532d8b6925e35d3.setIcon(icon_36c67538b3fe250e5c722111e8c6ae1c);
+            
+    
+            tile_layer_021a7d62af92fad8bc9f8791edfb36a1.addTo(map_100731502047e75984eab94ccce4fbdf);
+        
+    
+                marker_afde9d1057846bd49d968f097abedaf5.setIcon(icon_85e87fd428bf93e77e28d1d2d29c1868);
+            
+    
+                marker_81b084ba9fa7c2fc6e91e3b7c33961e4.setIcon(icon_f8f1742090c53b322e60852f2fb58eaa);
+            
+    
+                marker_2ba93970f15938fd35c79855253ac35f.setIcon(icon_0806f105cc6e41d2ffd7e5d2e9d0f081);
+            
+    
+                marker_3d89ced26f18d6c5cfe8751dd59bd15f.setIcon(icon_4844fb4771fb411843c031af44c9b660);
+            
+    
+                marker_f2387ba949b2680e5532d8b6925e35d3.setIcon(icon_36c67538b3fe250e5c722111e8c6ae1c);
+            
+</script>
+</html>
